@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B35" />
+      <stop offset="100%" stop-color="#F7C548" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Card -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)" />
+  
+  <!-- Inner circular badge -->
+  <circle cx="256" cy="256" r="210" fill="#FFFDF0" filter="url(#shadow)" stroke="#3E2723" stroke-width="12" />
+  
+  <!-- Pizza / Pie chart representation of 1/2 and 1/4 -->
+  <!-- Whole Pie Outline -->
+  <circle cx="256" cy="240" r="140" fill="#FFE082" stroke="#4E342E" stroke-width="10" />
+  
+  <!-- Slice 1 (1/4 slice in rich cheese and pepperoni) -->
+  <path d="M 256 240 L 256 100 A 140 140 0 0 1 396 240 Z" fill="#FF7043" stroke="#4E342E" stroke-width="10" />
+  <circle cx="310" cy="170" r="14" fill="#B71C1C" />
+  <circle cx="340" cy="210" r="12" fill="#B71C1C" />
+  <circle cx="280" cy="215" r="10" fill="#B71C1C" />
+
+  <!-- Slice 2 (1/4 slice in bright cheese) -->
+  <path d="M 256 240 L 396 240 A 140 140 0 0 1 256 380 Z" fill="#FFA726" stroke="#4E342E" stroke-width="10" />
+  <circle cx="320" cy="300" r="14" fill="#B71C1C" />
+
+  <!-- Comic Eyes on the remaining slice! -->
+  <ellipse cx="205" cy="210" rx="18" ry="24" fill="#212121" />
+  <ellipse cx="200" cy="202" rx="6" ry="8" fill="#FFFFFF" />
+  
+  <ellipse cx="150" cy="210" rx="18" ry="24" fill="#212121" />
+  <ellipse cx="145" cy="202" rx="6" ry="8" fill="#FFFFFF" />
+
+  <!-- Happy Mouth -->
+  <path d="M 165 250 Q 180 270 195 250" fill="none" stroke="#212121" stroke-width="8" stroke-linecap="round" />
+  <!-- Rosy cheeks -->
+  <circle cx="135" cy="240" r="10" fill="#FF8A80" opacity="0.8" />
+  <circle cx="220" cy="240" r="10" fill="#FF8A80" opacity="0.8" />
+
+  <!-- Fraction Badge Banner: 1/2 -->
+  <g transform="translate(256, 410)">
+    <rect x="-120" y="-35" width="240" height="70" rx="20" fill="#2E7D32" stroke="#1B5E20" stroke-width="8" filter="url(#shadow)"/>
+    <text x="0" y="14" font-family="Arial, system-ui, sans-serif" font-size="42" font-weight="900" fill="#FFFFFF" text-anchor="middle">PECAHAN 1/2</text>
+  </g>
+</svg>

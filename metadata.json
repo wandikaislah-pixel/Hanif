@@ -1,0 +1,6 @@
+{
+  "name": "Petualangan Pecahan: E-Komik Interaktif",
+  "description": "E-komik digital interaktif materi pecahan matematika untuk siswa Sekolah Dasar (SD) lengkap dengan kuis tiap bab, animasi interaktif, lencana reward, dasbor orang tua, dan mode offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
